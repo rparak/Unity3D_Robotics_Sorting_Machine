@@ -83,6 +83,7 @@ The project was realized at Institute of Automation and Computer Science, Brno U
 
 ## Digital-Twin Application:
 
+## HMI (Human-Machine Interface) - MappView:
 
 ## Result:
 
