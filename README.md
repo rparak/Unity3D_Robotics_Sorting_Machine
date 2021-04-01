@@ -47,7 +47,20 @@ The project was realized at Institute of Automation and Computer Science, Brno U
 
 **Repositary [/Unity3D_Robotics_Sorting_Machine/]:**
 ```bash
-[ Text ] /Text/
+/Sorting_Machine_OPCUA_Unity_App/ -> Unity3D Project
+[ UI + Main Control            ] /Assets/Script/UI/
+[ Data Processing              ] /Assets/Script/Sorting_machine/
+[ Object / Light Control       ] /Assets/Script/Service/
+[ Individual objects (.blend)  ] /Assets/Object/Blender/
+[ Images (UI)                  ] /Assets/Image/
+[ Scene of the Application     ] /Assets/Scenes/
+
+/3D_Model/
+[ Blender model of the SM          ] /Blender/
+[ Inventor model of the SM (.step) ] /Inventor/
+
+/Sorting_Machine_DT/ -> Automatio Studio B&R Project
+[  ] //
 ```
 
 <p align="center">
