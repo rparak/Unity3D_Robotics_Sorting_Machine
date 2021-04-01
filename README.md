@@ -26,6 +26,8 @@ The project is focused on a simple demonstration of client / server communicatio
 
 This solution can be used to control a real machine or to simulate it (Automation Studio Runtime Simulation/ Real PLC). The Unity3D Digital-Twin application was tested on the simulation using X20CP1584 PLC. It is possible to use another OPC UA server, but in accordance with certain principles (Input / Output nodes).
 
+The sorting machine is a model (designed by the author of the application), so far there is no real identical machine.
+
 Example of a simple data processing application:
 
 [OPC UA B&R Automation - Data Processing](https://github.com/rparak/OPCUA_Simple)
