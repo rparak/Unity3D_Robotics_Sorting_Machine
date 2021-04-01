@@ -36,11 +36,11 @@ The application can be installed on a mobile phone, tablet or computer, but for 
 The project was realized at Institute of Automation and Computer Science, Brno University of Technology, Faculty of Mechanical Engineering (NETME Centre - Cybernetics and Robotics Division).
 
 <p align="center">
-<img src="https://github.com/rparak/Unity3D_Robotics_Sorting_Machine/blob/main/images/sorting_machine_model.png" width="775" height="450">
+<img src="https://github.com/rparak/Unity3D_Robotics_Sorting_Machine/blob/main/images/sorting_machine_model.PNG" width="775" height="450">
 </p>
 
 <p align="center">
-<img src="https://github.com/rparak/Unity3D_Robotics_Sorting_Machine/blob/main/images/sm_1.png" width="775" height="450">
+<img src="https://github.com/rparak/Unity3D_Robotics_Sorting_Machine/blob/main/images/sm_1.PNG" width="775" height="450">
 </p>
 
 ## Project Hierarchy:
