@@ -26,7 +26,14 @@ The project is focused on a simple demonstration of client / server communicatio
 
 This solution can be used to control a real machine or to simulate it (Automation Studio Runtime Simulation/ Real PLC). The Unity3D Digital-Twin application was tested on the simulation using X20CP1584 PLC. It is possible to use another OPC UA server, but in accordance with certain principles (Input / Output nodes).
 
-The main idea of the application is to use the XYZ manipulator and another axis (camera conveyor) to sort multiple objects. For visual inspection of the object, we use a 2D camera with additional light and the entire control program (axis control, alarm handling, attach / detach of objects, and others) is programmed on the PLC (OPC UA Server). The Unity3d digital-twin application is used to visualize the scene, manipulate objects, and obtain information about the type of object.
+The main idea of the application is to use the XYZ manipulator and another axis (camera conveyor) to sort multiple objects. For visual inspection of the object, we use a 2D camera with additional light and the entire control program (axis control, alarm handling, attach / detach of objects, and others) is programmed on the PLC (OPC UA Server). The Unity3d digital-twin application is used to visualize the scene, manipulate objects, and obtain information about the type of object. The application also uses a package (Human-Machine interface - mappView) for data visualization, which can be viewed locally on a PC panel or remotely on any device using a standard web browser (data management in mapp View is completely based on OPC UA).
+
+**MappView (HMI):**
+```bash
+PLC_ADDRESS Simulation: localhost or 127.0.0.1
+
+http://PLC_ADDRESS:81/index.html?visuId=sm_digital_twin
+```
 
 The sorting machine is a simulation model (designed by the author of the application), so far there is no real identical machine.
 
