@@ -30,7 +30,8 @@ The main idea of the application is to use the XYZ manipulator and another axis 
 
 **MappView (HMI):**
 ```bash
-PLC_ADDRESS Simulation: localhost or 127.0.0.1
+Simulation Address
+PLC_ADDRESS = localhost or 127.0.0.1
 
 http://PLC_ADDRESS:81/index.html?visuId=sm_digital_twin
 ```
