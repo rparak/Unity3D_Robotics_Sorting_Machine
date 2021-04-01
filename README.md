@@ -39,6 +39,9 @@ The project was realized at Institute of Automation and Computer Science, Brno U
 <img src="https://github.com/rparak/Unity3D_Robotics_Sorting_Machine/blob/main/images/sorting_machine_model.png" width="775" height="450">
 </p>
 
+<p align="center">
+<img src="https://github.com/rparak/Unity3D_Robotics_Sorting_Machine/blob/main/images/sm_1.png" width="775" height="450">
+</p>
 
 ## Project Hierarchy:
 
@@ -46,6 +49,10 @@ The project was realized at Institute of Automation and Computer Science, Brno U
 ```bash
 [ Text ] /Text/
 ```
+
+<p align="center">
+<img src="https://github.com/rparak/Unity3D_Robotics_Sorting_Machine/blob/main/images/sm_2.png" width="775" height="450">
+</p>
 
 ## Digital-Twin Application:
 
