@@ -91,7 +91,35 @@ The project was realized at Institute of Automation and Computer Science, Brno U
 
 ## Digital-Twin Application:
 
+<p align="center">
+<img src="https://github.com/rparak/Unity3D_Robotics_Sorting_Machine/blob/main/images/dt_1.png" width="800" height="500">
+</p>
+
+<p align="center">
+<img src="https://github.com/rparak/Unity3D_Robotics_Sorting_Machine/blob/main/images/dt_2.png" width="800" height="500">
+</p>
+
+<p align="center">
+<img src="https://github.com/rparak/Unity3D_Robotics_Sorting_Machine/blob/main/images/dt_3.png" width="800" height="500">
+</p>
+
+<p align="center">
+<img src="https://github.com/rparak/Unity3D_Robotics_Sorting_Machine/blob/main/images/dt_4.png" width="800" height="500">
+</p>
+
+<p align="center">
+<img src="https://github.com/rparak/Unity3D_Robotics_Sorting_Machine/blob/main/images/dt_5.png" width="800" height="500">
+</p>
+
+<p align="center">
+<img src="https://github.com/rparak/Unity3D_Robotics_Sorting_Machine/blob/main/images/dt_6.png" width="800" height="500">
+</p>
+
 ## HMI (Human-Machine Interface) - MappView:
+
+<p align="center">
+<img src="https://github.com/rparak/Unity3D_Robotics_Sorting_Machine/blob/main/images/mv_1.png" width="800" height="500">
+</p>
 
 ## Result:
 
