@@ -115,11 +115,20 @@ The project was realized at Institute of Automation and Computer Science, Brno U
 <img src="https://github.com/rparak/Unity3D_Robotics_Sorting_Machine/blob/main/images/dt_6.png" width="800" height="500">
 </p>
 
+<p align="center">
+<img src="https://github.com/rparak/Unity3D_Robotics_Sorting_Machine/blob/main/images/dt_7.png" width="800" height="500">
+</p>
+
 ## HMI (Human-Machine Interface) - MappView:
 
 <p align="center">
 <img src="https://github.com/rparak/Unity3D_Robotics_Sorting_Machine/blob/main/images/mv_1.png" width="800" height="500">
 </p>
+
+<p align="center">
+<img src="https://github.com/rparak/Unity3D_Robotics_Sorting_Machine/blob/main/images/mv_2.png" width="800" height="500">
+</p>
+
 
 ## Result:
 
