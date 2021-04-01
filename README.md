@@ -22,14 +22,20 @@ Visual Studio: https://visualstudio.microsoft.com/downloads/
 
 ## Project Description:
 
-Text
+The project is focused on a simple demonstration of client / server communication via OPC UA, which is implemented in Unity3D (Server - B&R Automation PLC, Client - Unity3D). The project demonstrates the Digital-Twin of the Sorting Machine with some additional functions. The application uses performance optimization using multi-threaded programming.
+
+This solution can be used to control a real machine or to simulate it (Automation Studio Runtime Simulation/ Real PLC). The Unity3D Digital-Twin application was tested on the simulation using X20CP1584 PLC. It is possible to use another OPC UA server, but in accordance with certain principles (Input / Output nodes).
 
 Example of a simple data processing application:
 
 [OPC UA B&R Automation - Data Processing](https://github.com/rparak/OPCUA_Simple)
 
 Main functions of the Sorting Machine Digital-Twin model:
-- text 
+- Camera Control
+- Connect/Disconnect -> Real HW or Simulation (OPC UA Communication)
+- Read Data (Position / Speed of the HW)
+- Write Data (Attach / Detach of the object, Type of the object, etc.)
+- NVIDIA PhysX, etc.
 
 The application can be installed on a mobile phone, tablet or computer, but for communication with the robot it is necessary to be in the same network.
 
