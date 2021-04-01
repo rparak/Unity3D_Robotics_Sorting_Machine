@@ -60,7 +60,11 @@ The project was realized at Institute of Automation and Computer Science, Brno U
 [ Inventor model of the SM (.step) ] /Inventor/
 
 /Sorting_Machine_DT/ -> Automatio Studio B&R Project
-[  ] //
+[ Function Block (Axis Control) ] /Logical/Libraries/rp_funcx/
+[ Main Program                  ] /Logical/Main_Control/
+[ XYZ Manipulator Program       ] /Logical/XYZ_MANIPULATOR/
+[ Camera Conveyor Program       ] /Logical/CAMERA_CONVEYOR/
+[ MappView Visualization        ] /Logical/mappView/
 ```
 
 <p align="center">
