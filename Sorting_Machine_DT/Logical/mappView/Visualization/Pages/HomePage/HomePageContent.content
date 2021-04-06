@@ -34,17 +34,17 @@
     <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle8" top="375" left="1280" width="540" height="660" zIndex="7" borderWidth="2px" cornerRadius="50px" lineColor="rgba(234, 240, 243, 1)" backColor="rgba(255, 255, 255, 1)" opacity="0.8" />
     <Widget xsi:type="widgets.brease.Label" id="Label20" top="100" left="1300" width="500" zIndex="8" text="CAMERA" borderWidth="1px" cornerRadius="5px" backColor="rgba(255, 255, 255, 1)" borderColor="rgba(255, 255, 255, 1)" borderStyle="solid" textColor="rgba(130, 168, 185, 1)" textAlign="center" opacity="0.8" fontSize="20px" />
     <Widget xsi:type="widgets.brease.Label" id="Label21" top="395" left="1300" width="500" zIndex="9" text="WAREHOUSE (B&amp;R, SMC)" borderWidth="1px" cornerRadius="5px" backColor="rgba(255, 255, 255, 1)" borderColor="rgba(255, 255, 255, 1)" borderStyle="solid" textColor="rgba(130, 168, 185, 1)" textAlign="center" opacity="0.8" fontSize="20px" />
-    <Widget xsi:type="widgets.brease.Image" id="Image6" top="440" left="1360" width="400" height="280" zIndex="10" image="Media/br_p.png" imageColor="rgba(130, 168, 185, 1)" />
-    <Widget xsi:type="widgets.brease.Image" id="Image7" top="740" left="1360" width="400" height="280" zIndex="11" image="Media/smc_p.png" imageColor="rgba(130, 168, 185, 1)" />
-    <Widget xsi:type="widgets.brease.ImageList" id="ImageList1" top="900" left="1400" zIndex="12" imageList="['Media/smc_obj_d.png', 'Media/smc_obj.png']" />
-    <Widget xsi:type="widgets.brease.ImageList" id="ImageList2" top="900" left="1580" zIndex="13" imageList="['Media/smc_obj_d.png', 'Media/smc_obj.png']" />
-    <Widget xsi:type="widgets.brease.ImageList" id="ImageList3" top="760" left="1400" zIndex="14" imageList="['Media/smc_obj_d.png', 'Media/smc_obj.png']" />
-    <Widget xsi:type="widgets.brease.ImageList" id="ImageList4" top="760" left="1580" zIndex="15" imageList="['Media/smc_obj_d.png', 'Media/smc_obj.png']" />
-    <Widget xsi:type="widgets.brease.ImageList" id="ImageList5" top="600" left="1400" zIndex="16" imageList="['Media/br_obj_d.png', 'Media/br_obj.png']" />
-    <Widget xsi:type="widgets.brease.ImageList" id="ImageList6" top="600" left="1580" zIndex="17" imageList="['Media/br_obj_d.png', 'Media/br_obj.png']" />
-    <Widget xsi:type="widgets.brease.ImageList" id="ImageList10" top="460" left="1400" zIndex="18" imageList="['Media/br_obj_d.png', 'Media/br_obj.png']" />
-    <Widget xsi:type="widgets.brease.ImageList" id="ImageList11" top="460" left="1580" zIndex="19" imageList="['Media/br_obj_d.png', 'Media/br_obj.png']" />
-    <Widget xsi:type="widgets.brease.ImageList" id="ImageList12" top="145" left="1415" width="290" height="180" zIndex="20" imageList="['', 'Media/br_obj.png', 'Media/smc_obj.png', 'Media/err_obj.png']" selectedIndex="1" />
+    <Widget xsi:type="widgets.brease.Image" id="Image6" top="440" left="1350" width="400" height="280" zIndex="10" image="Media/br_p.png" imageColor="rgba(130, 168, 185, 1)" />
+    <Widget xsi:type="widgets.brease.Image" id="Image7" top="740" left="1350" width="400" height="280" zIndex="11" image="Media/smc_p.png" imageColor="rgba(130, 168, 185, 1)" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList1" top="900" left="1390" zIndex="12" imageList="['Media/smc_obj_d.png', 'Media/smc_obj.png']" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList2" top="900" left="1570" zIndex="13" imageList="['Media/smc_obj_d.png', 'Media/smc_obj.png']" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList3" top="760" left="1390" zIndex="14" imageList="['Media/smc_obj_d.png', 'Media/smc_obj.png']" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList4" top="760" left="1570" zIndex="15" imageList="['Media/smc_obj_d.png', 'Media/smc_obj.png']" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList5" top="600" left="1390" zIndex="16" imageList="['Media/br_obj_d.png', 'Media/br_obj.png']" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList6" top="600" left="1570" zIndex="17" imageList="['Media/br_obj_d.png', 'Media/br_obj.png']" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList10" top="460" left="1390" zIndex="18" imageList="['Media/br_obj_d.png', 'Media/br_obj.png']" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList11" top="460" left="1570" zIndex="19" imageList="['Media/br_obj_d.png', 'Media/br_obj.png']" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList12" top="145" left="1405" width="290" height="180" zIndex="20" imageList="['', 'Media/br_obj.png', 'Media/smc_obj.png', 'Media/err_obj.png']" selectedIndex="1" />
     <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox2" top="360" left="80" width="1100" height="681" zIndex="21" text="Graph Panel" borderWidth="1px" cornerRadius="0px 0px 0px 0px" backColor="rgba(255, 255, 255, 1)" headerBackColor="rgba(47, 111, 139, 1)" borderColor="rgba(234, 240, 243, 1)" textColor="rgba(234, 240, 243, 1)" imageColor="rgba(234, 240, 243, 1)" fontSize="15px" textAlign="center" opacity="1" style="transparent">
       <Widgets>
         <Widget xsi:type="widgets.brease.OnlineChart" id="OnlineChart1" top="5" left="40" width="462" height="276" zIndex="0" borderStyle="none">
