@@ -1,3 +1,1 @@
-*.shader linguist-detectable=false
-*.cs linguist-detectable=true
-*.cs linguist-language=C#
+* text=auto
