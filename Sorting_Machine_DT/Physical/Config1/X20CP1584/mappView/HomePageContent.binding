@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="HomePageContent_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.service.power" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="ToggleSwitch1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.service.home" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="ToggleSwitch2" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.service.mapp_view.active" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="ImageList7" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.service.mapp_view.power_on" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="ImageList8" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.service.mapp_view.is_homed" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="ImageList9" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.service.start" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="MomentaryPushButton3" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.service.object.write.reset" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="MomentaryPushButton4" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.camera_conveyor.X.parameter.vel" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="NumericInput11" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.xyz_manipulator.Z.parameter.vel" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="NumericInput10" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.xyz_manipulator.Y.parameter.vel" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="NumericInput9" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.xyz_manipulator.X.parameter.vel" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="NumericInput1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.camera_conveyor.X.actual_position" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="OnlineChartGraph7" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.xyz_manipulator.Z.actual_position" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="OnlineChartGraph5" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.xyz_manipulator.Z.actual_position" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="NumericOutput4" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.xyz_manipulator.Y.actual_position" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="NumericOutput3" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.xyz_manipulator.Y.actual_position" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="OnlineChartGraph2" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.xyz_manipulator.X.actual_position" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="NumericOutput2" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.xyz_manipulator.X.actual_position" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="OnlineChartGraph1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.camera_conveyor.X.actual_position" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="NumericOutput5" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.xyz_manipulator.X.parameter.pos" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="OnlineChartGraph3" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.xyz_manipulator.Y.parameter.pos" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="OnlineChartGraph4" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.xyz_manipulator.Z.parameter.pos" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="OnlineChartGraph6" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.camera_conveyor.X.parameter.pos" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="OnlineChartGraph8" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.service.mapp_view.br_pad_obj_id[3]" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="ImageList11" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.service.mapp_view.br_pad_obj_id[2]" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="ImageList10" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.service.mapp_view.br_pad_obj_id[1]" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="ImageList6" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.service.mapp_view.br_pad_obj_id[0]" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="ImageList5" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.service.mapp_view.smc_pad_obj_id[3]" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="ImageList4" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.service.mapp_view.smc_pad_obj_id[2]" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="ImageList3" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.service.mapp_view.smc_pad_obj_id[1]" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="ImageList2" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.service.mapp_view.smc_pad_obj_id[0]" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="ImageList1" attribute="selectedIndex" />
+</Binding>
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:dT_Main.service.mapp_view.cam_obj_id" attribute="value" />
+<Target xsi:type="brease" contentRefId="HomePageContent" widgetRefId="ImageList12" attribute="selectedIndex" />
+</Binding>
+</Bindings>
+</BindingsSet>

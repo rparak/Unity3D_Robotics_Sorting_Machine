@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="MappViewConfiguration" Type="MAPPVIEWCFG">
+    <Group ID="Server">
+      <Selector ID="WebServerProtocol" Value="1">
+        <Property ID="WebServerPort" Value="81" />
+      </Selector>
+      <Property ID="MaxClientConnections" Value="10" />
+      <Property ID="MaxBRClientConnections" Value="0" />
+      <Selector ID="AuthenticationMode" Value="AuthenticationModeRbac" />
+      <Group ID="TcpProxyConf">
+        <Selector ID="InsecureMode" Value="1" />
+      </Group>
+      <Group ID="DiagnosticPageConf">
+        <Selector ID="DiagnosticPageSelection" Value="1" />
+      </Group>
+    </Group>
+    <Group ID="OpcUa">
+      <Property ID="ServerConnectionTimeout" Value="5000" />
+      <Group ID="SamplingRates">
+        <Property ID="default" Value="200" />
+        <Property ID="slow" Value="1000" />
+        <Property ID="fast" Value="100" />
+      </Group>
+      <Property ID="InitValueChangedEvents" Value="TRUE" />
+    </Group>
+    <Group ID="Timer" />
+    <Group ID="Client">
+      <Group ID="ContentCaching">
+        <Property ID="cachingSlots" Value="200" />
+        <Property ID="preserveOldValues" Value="TRUE" />
+      </Group>
+      <Property ID="defaultVisu" Value="" />
+      <Group ID="Widget">
+        <Selector ID="renderingPolicy" Value="1" />
+      </Group>
+    </Group>
+  </Element>
+</Configuration>

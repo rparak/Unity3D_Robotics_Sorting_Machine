@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Styles id="BuRTheme1commonStyles" xmlns="http://www.br-automation.com/iat2015/styles/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<!--date time input-->
+	
+	<Style id="Input" xsi:type="widgets.brease.DateTimeInput" 
+		textColor="#000000" 
+		borderWidth="2px 2px 1px 1px" 
+		activeBorderWidth="2px 2px 1px 1px" 
+		borderColor="#FF8800" 
+		activeBorderColor="#FF8800" 
+		fontSize="20px" 
+		backColor="#FFFFFF" 
+		activeBackColor="#EBEBEB" 
+		activeTextColor="#555555" 
+		bold="true" 
+		shadow="4px 1px 3px 0px rgba(255, 113, 0, 0.75)" />
+
+	<Style id="InputLarge" xsi:type="widgets.brease.DateTimeInput" 
+		textColor="#000000" 
+		borderWidth="2px 2px 1px 1px" 
+		activeBorderWidth="2px 2px 1px 1px" 
+		borderColor="#FF8800" 
+		activeBorderColor="#FF8800" 
+		fontSize="32px" 
+		backColor="#FFFFFF" 
+		activeBackColor="#EBEBEB" 
+		activeTextColor="#555555" 
+		bold="true" 
+		shadow="4px 1px 3px 0px rgba(255, 113, 0, 0.75)" />
+		
+	<Style id="InputCommand" xsi:type="widgets.brease.DateTimeInput" 
+		textColor="#000000" 
+		borderWidth="2px 2px 1px 1px" 
+		activeBorderWidth="2px 2px 1px 1px" 
+		borderColor="#5196AF" 
+		activeBorderColor="#5196AF" 
+		fontSize="20px" 
+		backColor="#FFFFFF" 
+		activeBackColor="#EBEBEB" 
+		activeTextColor="#555555" 
+		bold="true" 
+		shadow="4px 1px 3px 0px rgba(81, 150, 175, 0.75)" />
+		
+	<!--date time output-->
+	
+	<Style id="Output" xsi:type="widgets.brease.DateTimeOutput" 
+		textColor="#474747" 
+		borderStyle="solid" 
+		borderWidth="1px" 
+		borderColor="#999999" 
+		fontSize="20px" 
+		backGroundGradient="linear-gradient(to bottom, rgba(235,235,235,0.5) 0%, rgba(235,235,235,0.5) 100%)" 
+		bold="true" />
+
+	<Style id="OutputLarge" xsi:type="widgets.brease.DateTimeOutput" 
+		borderStyle="solid" 
+		borderWidth="1px" 
+		borderColor="#999999" 
+		textColor="#474747" 
+		fontSize="32px" 
+		backGroundGradient="linear-gradient(to bottom, rgba(235,235,235,0.5) 0%, rgba(235,235,235,0.5) 100%)" 
+		bold="true" />
+		
+	<Style id="Overview" xsi:type="widgets.brease.DateTimeOutput" 
+		textColor="#474747" 
+		borderWidth="0px" 
+		fontSize="72px" 
+		bold="true"
+		backColor="transparent" />		
+
+	<!--measeurement system selector-->
+	
+	<Style id="transparent" xsi:type="widgets.brease.MeasurementSystemSelector" 
+		backColor="transparent" 
+		borderWidth="0px" 
+		mouseDownBackColor="transparent" 
+		mouseDownBorderWidth="0px" 
+		fontSize="16px" bold="true" 
+		textColor="#FFFFFF" />
+	
+	<!--listbox-->
+	
+	<Style id="ListBox1" xsi:type="widgets.brease.ListBox" 
+		fontSize="16px" 
+		textColor="#474747" 
+		activeTextColor="#FFFFFF" 
+		borderWidth="0px" 
+		backColor="#C6C6C6" 
+		activeBackGroundGradient="linear-gradient(to bottom, #66CCFF 0%,#52A3CC 100%)" 
+		borderColor="#C6C6C6" 
+		textAlign="left" />
+
+	<!--radial gauge-->
+	
+	<Style id="Gauge1" xsi:type="widgets.brease.RadialGauge" 
+		borderWidth="2px" 
+		borderColor="#474747" 
+		pointerBackColor="#FF0000" 
+		backGroundGradient="radial-gradient(ellipse farthest-corner at 45px 45px , #d9d9d9 0%, rgba(0, 0, 255, 0) 50%, #555555 95%)" />
+	
+	<Style id="Gauge2" xsi:type="widgets.brease.RadialGauge" 
+		borderWidth="2px" 
+		borderColor="#474747" 
+		pointerBackColor="#FF0000" 
+		backGroundGradient="radial-gradient(farthest-corner at 45px 45px , #FFFFFF 0%, #a6a6a6 100%)"/>	
+	
+	<Style id="Gauge1_from80_red" xsi:type="widgets.brease.RadialGauge" 
+		borderWidth="2px" 
+		borderColor="#474747" 
+		pointerBackColor="#FF0000"
+		backGroundGradient="radial-gradient(ellipse farthest-corner at 45px 45px , #d9d9d9 0%, rgba(0, 0, 255, 0) 50%, #555555 95%)" 
+		backColorScaleArea5="#ff1a1a" />
+	
+	<Style id="Gauge2_from80_red" xsi:type="widgets.brease.RadialGauge" 
+		borderWidth="2px" 
+		borderColor="#474747" 
+		pointerBackColor="#FF0000" 
+		backGroundGradient="radial-gradient(farthest-corner at 45px 45px , #FFFFFF 0%, #a6a6a6 100%)"  
+		backColorScaleArea5="#ff1a1a"/>	
+	
+	<Style id="Gauge1_to20_red" xsi:type="widgets.brease.RadialGauge" 
+		borderWidth="2px" 
+		borderColor="#474747" 
+		pointerBackColor="#FF0000" 
+		backGroundGradient="radial-gradient(ellipse farthest-corner at 45px 45px , #d9d9d9 0%, rgba(0, 0, 255, 0) 50%, #555555 95%)" 
+		backColorScaleArea1="#ff1a1a" />
+	
+	<Style id="Gauge2_to20_red" xsi:type="widgets.brease.RadialGauge" 
+		borderWidth="2px" 
+		borderColor="#474747" 
+		pointerBackColor="#FF0000" 
+		backGroundGradient="radial-gradient(farthest-corner at 45px 45px , #FFFFFF 0%, #a6a6a6 100%)"  
+		backColorScaleArea1="#ff1a1a"/>	
+		
+	<Style id="Gauge1_to80_green" xsi:type="widgets.brease.RadialGauge" 
+		borderWidth="2px" 
+		borderColor="#474747" 
+		pointerBackColor="#FF0000" 	
+		backGroundGradient="radial-gradient(ellipse farthest-corner at 45px 45px , #d9d9d9 0%, rgba(0, 0, 255, 0) 50%, #555555 95%)" 
+		backColorScaleArea1="rgba(102, 153, 0, 0.5)" 
+		backColorScaleArea2="rgba(102, 153, 0, 0.5)"  
+		backColorScaleArea3="rgba(102, 153, 0, 0.5)" 
+		backColorScaleArea4="rgba(102, 153, 0, 0.5)" 
+		backColorScaleArea5="#ff1a1a"/>
+	
+	<Style id="Gauge2_to80_green" xsi:type="widgets.brease.RadialGauge" 
+		borderWidth="2px" 
+		borderColor="#474747" 
+		pointerBackColor="#FF0000" 
+		backGroundGradient="radial-gradient(farthest-corner at 45px 45px , #FFFFFF 0%, #a6a6a6 100%)"  
+		backColorScaleArea1="rgba(102, 153, 0, 0.5)" 
+		backColorScaleArea2="rgba(102, 153, 0, 0.5)"  
+		backColorScaleArea3="rgba(102, 153, 0, 0.5)" 
+		backColorScaleArea4="rgba(102, 153, 0, 0.5)" 
+		backColorScaleArea5="#ff1a1a"/>	
+	
+	
+</Styles>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="5.12.2" SubType="binary" Description="PLCopen Motion Control function blocks" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>acp10_mc.fun</File>
+    <File>acp10_mc.typ</File>
+    <File>acp10_mc.var</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="Sys_lib" FromVersion="0.00.0" />
+    <Dependency ObjectName="Brsystem" FromVersion="0.00.0" />
+    <Dependency ObjectName="Acp10man" FromVersion="5.12.2" ToVersion="5.12.2" />
+  </Dependencies>
+</Library>

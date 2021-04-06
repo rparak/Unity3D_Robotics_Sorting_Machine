@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="5.12.2" SubType="Binary" Description="Motion Control Manager" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>Acp10man.typ</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="Acp10par" FromVersion="5.12.2" ToVersion="5.12.2" />
+    <Dependency ObjectName="Ncglobal" FromVersion="5.12.2" ToVersion="5.12.2" />
+  </Dependencies>
+</Library>

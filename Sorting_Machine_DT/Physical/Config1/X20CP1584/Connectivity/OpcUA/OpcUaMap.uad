@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<OpcUaSource FileVersion="7" ArVersion="C4.90">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases />
+    <EngineeringUnitAliases />
+  </Aliases>
+  <DefaultView>
+    <Module Name="&lt;Default&gt;">
+      <GlobalVariables Name="Global Variables">
+        <Variable Name="dT_Main">
+          <Variable Name="camera">
+            <Variable Name="scan" />
+          </Variable>
+          <Variable Name="xyz_manipulator">
+            <Variable Name="X">
+              <Variable Name="actual_position" />
+              <Variable Name="actual_velocity" />
+              <Variable Name="parameter">
+                <Variable Name="pos" />
+                <Variable Name="vel" />
+              </Variable>
+            </Variable>
+            <Variable Name="Y">
+              <Variable Name="actual_position" />
+              <Variable Name="actual_velocity" />
+              <Variable Name="parameter">
+                <Variable Name="pos" />
+                <Variable Name="vel" />
+              </Variable>
+            </Variable>
+            <Variable Name="Z">
+              <Variable Name="actual_position" />
+              <Variable Name="actual_velocity" />
+              <Variable Name="parameter">
+                <Variable Name="pos" />
+                <Variable Name="vel" />
+              </Variable>
+            </Variable>
+          </Variable>
+          <Variable Name="camera_conveyor">
+            <Variable Name="X">
+              <Variable Name="actual_position" />
+              <Variable Name="actual_velocity" />
+              <Variable Name="parameter">
+                <Variable Name="pos" />
+                <Variable Name="vel" />
+              </Variable>
+            </Variable>
+          </Variable>
+          <Variable Name="service">
+            <Variable Name="object">
+              <Variable Name="write">
+                <Variable Name="set_object_id" />
+                <Variable Name="reset" />
+                <Variable Name="detach" />
+                <Variable Name="attach" />
+              </Variable>
+              <Variable Name="read">
+                <Variable Name="object_id" />
+                <Variable Name="object_type" />
+              </Variable>
+            </Variable>
+            <Variable Name="power" />
+            <Variable Name="home" />
+            <Variable Name="start" />
+            <Variable Name="mapp_view">
+              <Variable Name="active" />
+              <Variable Name="is_homed" />
+              <Variable Name="power_on" />
+              <Variable Name="cam_obj_id" />
+              <Variable Name="br_pad_obj_id" EnableArrayElements="True" />
+              <Variable Name="smc_pad_obj_id" EnableArrayElements="True" />
+            </Variable>
+          </Variable>
+        </Variable>
+      </GlobalVariables>
+      <Task Name="Main" />
+    </Module>
+  </DefaultView>
+</OpcUaSource>

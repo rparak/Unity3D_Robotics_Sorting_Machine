@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="Administrators" Type="Role">
+    <Property ID="RoleID" Value="1" />
+  </Element>
+  <Element ID="Everyone" Type="Role" >
+    <Property ID="RoleID" Value="2" />
+  </Element>
+</Configuration>

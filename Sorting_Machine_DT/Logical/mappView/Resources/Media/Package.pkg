@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package SubType="MediaPackage" PackageType="MediaPackage" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">home_dis.svg</Object>
+    <Object Type="File">home_en.svg</Object>
+    <Object Type="File">power_dis.svg</Object>
+    <Object Type="File">active_en.svg</Object>
+    <Object Type="File">active_dis.svg</Object>
+    <Object Type="File">power_en.svg</Object>
+    <Object Type="File">alarm_2.svg</Object>
+    <Object Type="File">alarm_1.svg</Object>
+    <Object Type="File">Home.svg</Object>
+    <Object Type="File">On.svg</Object>
+    <Object Type="File">brlogo_wh.svg</Object>
+    <Object Type="File">smc_logo.svg</Object>
+    <Object Type="File">graph.svg</Object>
+    <Object Type="File">br_obj.png</Object>
+    <Object Type="File">br_obj_d.png</Object>
+    <Object Type="File">err_obj.png</Object>
+    <Object Type="File">smc_obj.png</Object>
+    <Object Type="File">smc_obj_d.png</Object>
+    <Object Type="File">br_p.png</Object>
+    <Object Type="File">smc_p.png</Object>
+  </Objects>
+</Package>

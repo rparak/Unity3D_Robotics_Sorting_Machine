@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?AutomationStudio FileVersion="4.9"?>
+<BR.AS.HardwareTopology>
+  <TimeStamps>
+    <TimeStamp LogicalPath="Config1.Hardware.hw" LastWriteTime="03/31/2021 12:23:41" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="X20CP1584" Type="X20CP1584" X="100" Y="100" />
+    <Module Name="8EI2X2HCT10.xxxx-1" Type="8EI2X2HCT10.xxxx-1" X="250" Y="249" />
+    <Module Name="80VD100PS.C00X-01" Type="80VD100PS.C00X-01" X="379" Y="264" />
+  </Modules>
+  <Links>
+    <Link From="80VD100PS.C00X-01" To="8EI2X2HCT10.xxxx-1" FromPort="PLK1" ToPort="PLK2" IsRoutedByUser="False">
+      <Point X="418.2" Y="338" />
+      <Point X="418.2" Y="323" />
+      <Point X="437.2" Y="323" />
+      <Point X="445" Y="323" />
+      <Point X="445" Y="235" />
+      <Point X="266.099976" Y="235" />
+      <Point X="266.099976" Y="248.5" />
+      <Point X="266.099976" Y="259.5" />
+      <Point X="266.099976" Y="259.5" />
+    </Link>
+    <Link From="8EI2X2HCT10.xxxx-1" To="X20CP1584" FromPort="PLK1" ToPort="IF3" IsRoutedByUser="False">
+      <Point X="257.7" Y="259.5" />
+      <Point X="257.7" Y="259.5" />
+      <Point X="249.700012" Y="259.5" />
+      <Point X="156" Y="259.5" />
+      <Point X="156" Y="200" />
+      <Point X="156" Y="187" />
+      <Point X="156" Y="187" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>

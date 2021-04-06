@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Library" Language="binary" Description="This library contains function interfaces for IEC 61131-3 operator functions. For the most part, these are mathematical and logical functions.">operator</Object>
+    <Object Type="Library" Language="binary" Description="This library contains runtime functions for IEC tasks.">runtime</Object>
+    <Object Type="Library" Language="binary" Description="The AsTime Library supports DATE_AND_TIME and TIME data types.">astime</Object>
+    <Object Type="Library" Language="binary" Description="This library contains function interfaces for IEC 61131-3 conversion functions.">AsIecCon</Object>
+    <Object Type="Library" Language="Binary" Description="Motion Control Manager">Acp10man</Object>
+    <Object Type="Library" Language="Binary" Description="ACOPOS Parameters">Acp10par</Object>
+    <Object Type="Library" Language="Binary" Description="Global NC functions">NcGlobal</Object>
+    <Object Type="Library" Language="binary" Description="PLCopen Motion Control function blocks">Acp10_MC</Object>
+    <Object Type="Library" Language="binary" Description="The SYS_LIB library contains functions for memory management and operating system manipulation as well as hardware-specific functions.">sys_lib</Object>
+    <Object Type="Library" Language="binary" Description="The BRSystem library provides the user with a number of system functions for e.g. handling permanent memory, accessing exception information, etc.">brsystem</Object>
+    <Object Type="Library" Language="Binary" Description="Single and multi axes control">MpAxis</Object>
+    <Object Type="Library" Language="Binary" Description="Core library for mapp components">MpBase</Object>
+    <Object Type="Library" Language="Binary" Description="mapp components diagnosis,hierarchy and unit handling">MpCom</Object>
+    <Object Type="Library" Language="ANSIC">rp_funcx</Object>
+    <Object Type="Library" Language="binary" Description="This library contains standard function blocks and functions for IEC 61131-3.">standard</Object>
+    <Object Type="Library" Language="binary" Description="ACOPOS Simulation">Acp10sim</Object>
+  </Objects>
+</Package>

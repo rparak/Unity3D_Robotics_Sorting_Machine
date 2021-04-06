@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NcConfiguration Version="5.12.2" NcSwId="Acp10">
+  <Group ID="ACP10CF1_typ">
+    <Parameter ID="cnt_nettrc_rec_drive" Value="1500" />
+    <Parameter ID="bufsize_trace_upload" Value="1200" />
+    <Parameter ID="tc_nc_man_task" Value="Cyclic #1" />
+    <Parameter ID="glob_pv_as_ncobject" Value="Yes" />
+    <Parameter ID="ncsys_dl_broadcast" Value="Yes" />
+    <Parameter ID="ncsys_dl_acp_reset" Value="Yes" />
+    <Parameter ID="safemc_log_err_to_ax" Value="Yes" />
+    <Group ID="network_init">
+      <Parameter ID="ncsw_init_execute" Value="Yes" />
+      <Parameter ID="automatic_execute" Value="No" />
+      <Parameter ID="node_nr_warning" Value="Yes" />
+      <Parameter ID="net_err_before_ncact" Value="Yes" />
+    </Group>
+    <Group ID="nettrc">
+      <Parameter ID="enter_parsecrec" Value="Yes" />
+      <Parameter ID="enter_ncaction" Value="Yes" />
+      <Parameter ID="save_ring_startidx" Value="Yes" />
+    </Group>
+    <Group ID="cam_prof_download">
+      <Parameter ID="cam_dat_dl_parallel" Value="No" />
+      <Parameter ID="tc_cam_dl_parallel" Value="Task class for NC Manager task" />
+    </Group>
+    <Group ID="plk_if[0]">
+      <Parameter ID="if_name" Value="IF3" />
+      <Parameter ID="tc_CycDat_PLCopen" Value="Task class for NC Manager task" />
+      <Parameter ID="mc_broadcast_extdat" Value="No" />
+    </Group>
+  </Group>
+</NcConfiguration>

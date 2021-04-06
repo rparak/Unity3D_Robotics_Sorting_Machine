@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<ProjectSettings xmlns="http://br-automation.co.at/AS/ProjectSettings">
+  <ConfigurationManager ActiveConfigurationName="Config1" />
+  <Deployment Value="ActiveCpu" />
+  <Print Footer="%cPage: %p" Header="%lProject: %n%c%x" />
+</ProjectSettings>

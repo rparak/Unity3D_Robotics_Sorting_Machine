@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="ANSIC">X_AXIS_M</Object>
+    <Object Type="Program" Language="ANSIC">Y_AXIS_M</Object>
+    <Object Type="Program" Language="ANSIC">Z_AXIS_M</Object>
+  </Objects>
+</Package>

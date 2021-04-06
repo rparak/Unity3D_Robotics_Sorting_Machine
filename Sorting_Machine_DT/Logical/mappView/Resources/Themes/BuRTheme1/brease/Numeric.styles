@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Styles id="BuRTheme1numericStyles" xmlns="http://www.br-automation.com/iat2015/styles/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<!--numeric input-->
+	
+	<Style id="Input" xsi:type="widgets.brease.NumericInput" 
+		textColor="#000000" 
+		borderWidth="2px 2px 1px 1px" 
+		activeBorderWidth="2px 2px 1px 1px" 
+		borderColor="#FF8800" 
+		activeBorderColor="#FF8800" 
+		fontSize="20px" 
+		backColor="#FFFFFF" 
+		activeBackColor="#EBEBEB" 
+		activeTextColor="#555555" 
+		bold="true" 
+		shadow="4px 1px 3px 0px rgba(255, 113, 0, 0.75)" />
+
+	<Style id="InputLarge" xsi:type="widgets.brease.NumericInput" 
+		textColor="#000000" 
+		borderWidth="2px 2px 1px 1px" 
+		activeBorderWidth="2px 2px 1px 1px" 
+		borderColor="#FF8800" 
+		activeBorderColor="#FF8800" 
+		fontSize="32px" 
+		backColor="#FFFFFF" 
+		activeBackColor="#EBEBEB" 
+		activeTextColor="#555555" 
+		bold="true" 
+		shadow="4px 1px 3px 0px rgba(255, 113, 0, 0.75)" />
+		
+	<Style id="InputCommand" xsi:type="widgets.brease.NumericInput" 
+		textColor="#000000" 
+		borderWidth="2px 2px 1px 1px" 
+		activeBorderWidth="2px 2px 1px 1px" 
+		borderColor="#5196AF" 
+		activeBorderColor="#5196AF" 
+		fontSize="20px" 
+		backColor="#FFFFFF" 
+		activeBackColor="#EBEBEB" 
+		activeTextColor="#555555" 
+		bold="true" 
+		shadow="4px 1px 3px 0px rgba(81, 150, 175, 0.75)" />
+	
+	<!--numeric output-->
+	
+	<Style id="Output" xsi:type="widgets.brease.NumericOutput" 
+		textColor="#474747" 
+		borderWidth="1px" 
+		borderColor="#999999" 
+		fontSize="20px" 
+		backGroundGradient="linear-gradient(to bottom, rgba(235,235,235,0.5) 0%, rgba(235,235,235,0.5) 100%)" 
+		bold="true" />
+
+	<Style id="OutputLarge" xsi:type="widgets.brease.NumericOutput" 
+		borderWidth="1px" 
+		borderColor="#999999" 
+		textColor="#474747" 
+		fontSize="32px" 
+		backGroundGradient="linear-gradient(to bottom, rgba(235,235,235,0.5) 0%, rgba(235,235,235,0.5) 100%)" 
+		bold="true" />
+		
+	<Style id="Overview" xsi:type="widgets.brease.NumericOutput" 
+		textColor="#474747" 
+		borderWidth="0px" 
+		fontSize="72px" 
+		bold="true" 
+		backColor="transparent" />		
+	
+	<!--password-->
+	
+	<Style id="Input" xsi:type="widgets.brease.Password" 
+		textColor="#000000" 
+		borderWidth="2px 2px 1px 1px" 
+		activeBorderWidth="2px 2px 1px 1px" 
+		borderColor="#FF8800" 
+		activeBorderColor="#FF8800" 
+		fontSize="20px" 
+		backColor="#FFFFFF" 
+		activeBackColor="#EBEBEB" 
+		activeTextColor="#555555" 
+		bold="true" 
+		shadow="4px 1px 3px 0px rgba(255, 113, 0, 0.75)" />
+
+	<Style id="InputLarge" xsi:type="widgets.brease.Password" 
+		textColor="#000000" 
+		borderWidth="2px 2px 1px 1px" 
+		activeBorderWidth="2px 2px 1px 1px" 
+		borderColor="#FF8800" 
+		activeBorderColor="#FF8800" 
+		fontSize="32px" 
+		backColor="#FFFFFF" 
+		activeBackColor="#EBEBEB" 
+		activeTextColor="#555555" 
+		bold="true" 
+		shadow="4px 1px 3px 0px rgba(255, 113, 0, 0.75)" />
+		
+	<Style id="InputCommand" xsi:type="widgets.brease.Password" 
+		textColor="#000000" 
+		borderWidth="2px 2px 1px 1px" 
+		activeBorderWidth="2px 2px 1px 1px" 
+		borderColor="#5196AF" 
+		activeBorderColor="#5196AF" 
+		fontSize="20px"
+		backColor="#FFFFFF" 
+		activeBackColor="#EBEBEB" 
+		activeTextColor="#555555" 
+		bold="true" 
+		shadow="4px 1px 3px 0px rgba(81, 150, 175, 0.75)" />
+	
+	<!--favorite watch-->
+
+	<Style id="FavoriteWatch" xsi:type="widgets.brease.NumericOutput" 
+		textColor="#FFFFFF" 
+		borderWidth="0px" 
+		fontSize="16px" 
+		backColor="transparent" 
+		bold="true"	/>
+	
+	<Style id="FavoriteWatch" xsi:type="widgets.brease.NumericInput" 
+		textColor="#000000" 
+		borderWidth="1px" 
+		cornerRadius="5px" 
+		fontSize="16px" 
+		backColor="#FFFFFF"
+		bold="true"	/>
+	
+	
+</Styles>

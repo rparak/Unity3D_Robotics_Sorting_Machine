@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Styles id="BuRTheme1sequencerStyles" xmlns="http://www.br-automation.com/iat2015/styles/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	
+	<!-- All SequencerStepItem must have the same margin!--> 
+	<Style id="StepItem_Green" xsi:type="widgets.brease.SequencerStepItem" 
+		margin="20px"
+		textColor="#000000"
+		activeTextColor="#000000"
+		disabledTextColor="#0000FF"    
+		borderColor="#00a200"
+		borderWidth="3px"
+		cornerRadius="10px"
+		backColor="#f3f3f3"
+		activeBackColor="rgba(219, 219, 219, 1)"
+	/> 
+	
+	<Style id="StepItem_Red" xsi:type="widgets.brease.SequencerStepItem" 
+		margin="20px"
+		textColor="#000000"
+		activeTextColor="#000000"
+		borderColor="#ea0000"
+		borderWidth="3px"
+		cornerRadius="10px"
+		backColor="#f3f3f3"
+		activeBackColor="rgba(219, 219, 219, 1)"
+	/> 
+	<Style id="StepItem_Blue" xsi:type="widgets.brease.SequencerStepItem" 
+		margin="20px"
+		textColor="#000000"
+		activeTextColor="#000000"
+		borderColor="#0077ff"
+		borderWidth="3px"
+		cornerRadius="10px"
+		backColor="#f3f3f3"
+		activeBackColor="rgba(219, 219, 219, 1)"
+	/> 
+	<Style id="StepItem_Yellow" xsi:type="widgets.brease.SequencerStepItem" 
+		margin="20px"
+		textColor="#333333"
+		activeTextColor="#000000"
+		borderColor="#eaf900"
+		borderWidth="3px"
+		cornerRadius="10px"
+		backColor="#f3f3f3"
+		activeBackColor="rgba(219, 219, 219, 1)"
+	/> 
+	<Style id="StepItem_Pink" xsi:type="widgets.brease.SequencerStepItem" 
+		margin="20px"
+		textColor="#000000"
+		activeTextColor="#000000"
+		borderColor="#f900b8"
+		borderWidth="3px"
+		cornerRadius="10px"
+		backColor="#f3f3f3"
+		activeBackColor="rgba(219, 219, 219, 1)"
+	/> 
+	
+	<Style id="seq-label" xsi:type="widgets.brease.Label" 
+		fontName="Arial"
+		fontSize="22px" 
+		textColor="#000000" 
+		backColor="transparent" 
+		borderStyle="none" 
+		margin="5px"
+	padding="0px" />
+	
+	<Style id="seq-numeric-in" xsi:type="widgets.brease.NumericInput" 
+		fontSize="36px"
+		margin="5px"
+		unitFontSize="24px"
+		textColor="#000000" 
+		borderWidth="2px 2px 1px 1px" 
+		activeBorderWidth="2px 2px 1px 1px" 
+		borderColor="#FF8800" 
+		activeBorderColor="#FF8800" 
+		backColor="#FFFFFF" 
+		activeBackColor="#EBEBEB" 
+		activeTextColor="#555555" 
+		bold="true" 
+	shadow="4px 1px 3px 0px rgba(255, 113, 0, 0.75)" />
+	
+	<Style id="ParameterForm" xsi:type="widgets.brease.TextInput" 
+		backColor="transparent"
+		padding="0"
+		margin="2px 0px 2px 10px"
+	/>
+	
+	<Style id="ParameterForm" xsi:type="widgets.brease.NumericInput" 
+		backColor="transparent"
+		padding="0"
+		margin="2px 0px 2px 10px"
+	/>
+	
+	
+</Styles>

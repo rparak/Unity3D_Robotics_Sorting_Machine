@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="NC mapping">Acp10map.ncm</Object>
+    <Object Type="File" Description="NC manager configuration">Acp10cfg.ncc</Object>
+    <Object Type="File" Description="NC operating system">Acp10sys.br</Object>
+    <Object Type="File">Config.mpaxisbasic</Object>
+  </Objects>
+</Package>

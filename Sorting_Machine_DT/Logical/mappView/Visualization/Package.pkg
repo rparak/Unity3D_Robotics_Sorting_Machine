@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package SubType="VisualizationPackage" PackageType="VisualizationPackage" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package" Description="Pages">Pages</Object>
+    <Object Type="Package" Description="Variables">Variables</Object>
+    <Object Type="Package" Description="Expressions">Expressions</Object>
+    <Object Type="Package" Description="Layouts">Layouts</Object>
+    <Object Type="Package" Description="Dialogs">Dialogs</Object>
+    <Object Type="Package" Description="Resources">Resources</Object>
+  </Objects>
+</Package>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<pdef:Page xmlns:pdef="http://www.br-automation.com/iat2015/pageDefinition/v2" id="HomePage" layoutRefId="ContentLayout">
+  <Assignments>
+    <Assignment type="Content" baseContentRefId="HomePageContent" areaRefId="AreaContent" />
+    <Assignment type="Content" baseContentRefId="HeaderContent" areaRefId="AreaHeader" />
+    <Assignment type="Content" baseContentRefId="NavigationContent" areaRefId="AreaNavigation" />
+  </Assignments>
+</pdef:Page>

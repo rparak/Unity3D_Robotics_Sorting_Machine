@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Styles id="BuRTheme1ListStyles" xmlns="http://www.br-automation.com/iat2015/styles/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<!-- version 5.2 widgets-->
+	
+	<!-- AlarmList -->
+	
+	<!-- Alarm inactive -->
+	<Style id="style1" xsi:type="widgets.brease.AlarmListStyle" 
+		textColor="#474747"
+		backColor="rgba(255,255,255,0)"
+	/>
+	
+	<!-- Alarm active unacknowledged -->
+	<Style id="style2" xsi:type="widgets.brease.AlarmListStyle" 
+		textColor="#FFFFFF"
+		backColor="rgba(255,0,0,0.8)"
+		bold="true"
+	/>
+	
+	<!-- Alarm active acknowledged -->
+	<Style id="style3" xsi:type="widgets.brease.AlarmListStyle" 
+		textColor="#FFFFFF"
+		backColor="rgba(0,153,0,0.8)"
+	/>
+	<Style id="style4" xsi:type="widgets.brease.AlarmListStyle" 
+		textColor="#474747"
+		backColor="rgba(255,255,255,0)"
+	/>
+	<Style id="style5" xsi:type="widgets.brease.AlarmListStyle" 
+		textColor="#474747"
+		backColor="rgba(255,255,255,0)"
+	/>
+	<Style id="style6" xsi:type="widgets.brease.AlarmListStyle" 
+		textColor="#474747"
+		backColor="rgba(255,255,255,0)"
+	/>
+	<Style id="style7" xsi:type="widgets.brease.AlarmListStyle" 
+		textColor="#474747"
+		backColor="rgba(255,255,255,0)"
+	/>
+	<Style id="style8" xsi:type="widgets.brease.AlarmListStyle" 
+		textColor="#474747"
+		backColor="rgba(255,255,255,0)"	
+	/>
+	
+	<!-- AlarmHistory -->
+	
+	<Style id="style1" xsi:type="widgets.brease.AlarmHistoryStyle" 
+		textColor="#474747"
+		backColor="rgba(255,255,255,0)"
+	/>
+	<Style id="style2" xsi:type="widgets.brease.AlarmHistoryStyle" 
+		textColor="#474747"
+		backColor="rgba(255,255,255,0)"
+	/>
+	<Style id="style3" xsi:type="widgets.brease.AlarmHistoryStyle" 
+		textColor="#474747"
+		backColor="rgba(255,255,255,0)"
+	/>
+	<Style id="style4" xsi:type="widgets.brease.AlarmHistoryStyle" 
+		textColor="#474747"
+		backColor="rgba(255,255,255,0)"
+	/>
+	<Style id="style5" xsi:type="widgets.brease.AlarmHistoryStyle" 
+		textColor="#474747"
+		backColor="rgba(255,255,255,0)"
+	/>
+	<Style id="style6" xsi:type="widgets.brease.AlarmHistoryStyle" 
+		textColor="#474747"
+		backColor="rgba(255,255,255,0)"
+	/>
+	<Style id="style7" xsi:type="widgets.brease.AlarmHistoryStyle" 
+		textColor="#474747"
+		backColor="rgba(255,255,255,0)"
+	/>
+	<Style id="style8" xsi:type="widgets.brease.AlarmHistoryStyle" 
+		textColor="#474747"
+		backColor="rgba(255,255,255,0)"	
+	/>
+	
+	<!-- AuditList -->
+	
+	<Style id="style1" xsi:type="widgets.brease.AuditListStyle" 
+		textColor="#474747"
+		backColor="rgba(255,255,255,0)"
+	/>
+	<Style id="style2" xsi:type="widgets.brease.AuditListStyle" 
+		textColor="#474747"
+		backColor="rgba(255,255,255,0)"
+	/>
+	<Style id="style3" xsi:type="widgets.brease.AuditListStyle" 
+		textColor="#474747"
+		backColor="rgba(255,255,255,0)"
+	/>
+	<Style id="style4" xsi:type="widgets.brease.AuditListStyle" 
+		textColor="#474747"
+		backColor="rgba(255,255,255,0)"
+	/>
+	<Style id="style5" xsi:type="widgets.brease.AuditListStyle" 
+		textColor="#474747"
+		backColor="rgba(255,255,255,0)"
+	/>
+	<Style id="style6" xsi:type="widgets.brease.AuditListStyle" 
+		textColor="#474747"
+		backColor="rgba(255,255,255,0)"
+	/>
+	<Style id="style7" xsi:type="widgets.brease.AuditListStyle" 
+		textColor="#474747"
+		backColor="rgba(255,255,255,0)"
+	/>
+	<Style id="style8" xsi:type="widgets.brease.AuditListStyle" 
+		textColor="#474747"
+		backColor="rgba(255,255,255,0)"	
+	/>
+	
+</Styles>

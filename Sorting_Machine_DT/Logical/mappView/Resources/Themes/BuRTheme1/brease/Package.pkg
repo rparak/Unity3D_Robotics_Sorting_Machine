@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package SubType="StylesSetPackage" PackageType="StylesSetPackage" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Styles Set">BuRTheme1.stylesset</Object>
+    <Object Type="File">Default.styles</Object>
+    <Object Type="File">System.styles</Object>
+    <Object Type="File">Buttons.styles</Object>
+    <Object Type="File">Common.styles</Object>
+    <Object Type="File">Container.styles</Object>
+    <Object Type="File">Numeric.styles</Object>
+    <Object Type="File">LabelTexts.styles</Object>
+    <Object Type="File">Graphic.styles</Object>
+    <Object Type="File">Charts.styles</Object>
+    <Object Type="File">Sequencer.styles</Object>
+    <Object Type="File">Lists.styles</Object>
+  </Objects>
+</Package>

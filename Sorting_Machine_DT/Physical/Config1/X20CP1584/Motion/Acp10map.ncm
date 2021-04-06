@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<NcMapping NcSwId="Acp10">
+  <NcObject Name="gAxis01_X" ModuleId="8EI2X2HCT10.xxxx-1" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="gAxis01_Xi" AcoposParameter="gAxis01_Xa" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxis01_Y" ModuleId="8EI2X2HCT10.xxxx-1" Type="ncAXIS" Channel="2" AcoposSimulation="Off" InitParameter="gAxis01_Yi" AcoposParameter="gAxis01_Ya" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxis01_Z" ModuleId="8EI2X2HCT10.xxxx-1" Type="ncAXIS" Channel="3" AcoposSimulation="Off" InitParameter="gAxis01_Zi" AcoposParameter="gAxis01_Za" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="8EI2X2HCT10.xxxx-1_ncV_AXIS1" ModuleId="8EI2X2HCT10.xxxx-1" Type="ncV_AXIS" Channel="1" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8EI2X2HCT10.xxxx-1_ncV_AXIS2" ModuleId="8EI2X2HCT10.xxxx-1" Type="ncV_AXIS" Channel="2" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8EI2X2HCT10.xxxx-1_ncV_AXIS3" ModuleId="8EI2X2HCT10.xxxx-1" Type="ncV_AXIS" Channel="3" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxis01_C" ModuleId="80VD100PS.C00X-01" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="gAxis01_Ci" AcoposParameter="gAxis01_Ca" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="80VD100PS.C00X-01_ncV_AXIS1" ModuleId="80VD100PS.C00X-01" Type="ncV_AXIS" Channel="1" Disabled="TRUE" ModuleDisabled="FALSE" />
+</NcMapping>

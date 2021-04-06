@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Styles id="BuRTheme1chartStyles" xmlns="http://www.br-automation.com/iat2015/styles/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<!-- line chart -->
+
+	<Style id="Graph_Red" xsi:type="widgets.brease.LineChartGraph" 
+		lineColor="#FF0000" />
+	
+	<Style id="Graph_GrayBlu" xsi:type="widgets.brease.LineChartGraph" 
+		lineColor="#5196AF" />
+	
+	<Style id="Graph_Black" xsi:type="widgets.brease.LineChartGraph" 
+		lineColor="#000000" />
+	
+	<Style id="defaultArea" xsi:type="widgets.brease.LineChartGraph" 
+		lineColor="#FF8500"
+		fillColor="rgba(255,133,0,0.2)"  />
+	
+	<Style id="Graph_RedArea" xsi:type="widgets.brease.LineChartGraph" 
+		lineColor="#FF0000"
+		fillColor="rgba(255,0,0,0.2)"  />
+	
+	<Style id="Graph_GrayBluArea" xsi:type="widgets.brease.LineChartGraph" 
+		lineColor="#39f"
+		fillColor="rgba(81,150,175,0.2)"  />
+	
+	<Style id="Graph_BlackArea" xsi:type="widgets.brease.LineChartGraph" 
+		lineColor="#000000" 
+		fillColor="rgba(0,0,0,0.2)" />
+	
+
+	<!-- online chart -->
+	
+	<Style id="Graph_Red" xsi:type="widgets.brease.OnlineChartGraph" 
+		lineColor="#FF0000" />
+	
+	<Style id="Graph_GrayBlu" xsi:type="widgets.brease.OnlineChartGraph" 
+		lineColor="#5196AF" />
+	
+	<Style id="Graph_Black" xsi:type="widgets.brease.OnlineChartGraph"
+	 	lineColor="#000000" />
+	
+	<Style id="defaultArea" xsi:type="widgets.brease.OnlineChartGraph" 
+		lineColor="#FF8500"
+		fillColor="rgba(255,133,0,0.2)"  />
+	
+	<Style id="Graph_RedArea" xsi:type="widgets.brease.OnlineChartGraph" 
+		lineColor="#FF0000"
+		fillColor="rgba(255,0,0,0.2)"  />
+	
+	<Style id="Graph_GrayBluArea" xsi:type="widgets.brease.OnlineChartGraph" 
+		lineColor="#39f"
+		fillColor="rgba(81,150,175,0.2)"  />
+	
+	<Style id="Graph_BlackArea" xsi:type="widgets.brease.OnlineChartGraph" 
+		lineColor="#000000" 
+		fillColor="rgba(0,0,0,0.2)" />
+
+	<!-- profile generator -->
+	
+	<Style id="Graph_Red" xsi:type="widgets.brease.ProfileGeneratorYAxisStepItem" 
+		lineColor="#FF0000" 
+		editLineColor="#b4b4b4" 
+		editLineWidth="15px" />
+
+	<Style id="Graph_GrayBlu" xsi:type="widgets.brease.ProfileGeneratorYAxisStepItem" 
+		lineColor="#5196AF" 
+		editLineColor="#b4b4b4" 
+		editLineWidth="15px" />
+
+	<Style id="Graph_Black" xsi:type="widgets.brease.ProfileGeneratorYAxisStepItem" 
+		lineColor="#000000" 
+		editLineColor="#b4b4b4" 
+		editLineWidth="15px" />
+
+	<!-- bar chart -->
+	
+	<Style id="Graph_Red" xsi:type="widgets.brease.BarChartItem" 
+		borderWidth="0px" 
+		fontSize="16px" 
+		backColor="#FF0000"/>
+
+	<Style id="Graph_GrayBlu" xsi:type="widgets.brease.BarChartItem" 
+		borderWidth="0px" 
+		fontSize="16px" 
+		backColor="#5196AF"/>
+
+	<Style id="Graph_Black" xsi:type="widgets.brease.BarChartItem" 
+		borderWidth="0px" 
+		fontSize="16px" 
+		backColor="#000000"/>
+
+	<!-- pie chart item -->
+	
+	<Style id="ItemOrange75" xsi:type="widgets.brease.PieChartItem"
+		backColor="rgba(255, 136, 0, 0.75)"	/>
+	
+	<Style id="ItemOrange50" xsi:type="widgets.brease.PieChartItem"
+		backColor="rgba(255, 136, 0, 0.5)" />
+	
+	<Style id="ItemGrayBlue" xsi:type="widgets.brease.PieChartItem"
+		backColor="rgba(81,150,175,1)" />
+	
+	<Style id="ItemGrayBlue75" xsi:type="widgets.brease.PieChartItem"
+		backColor="rgba(81,150,175,0.75)" />
+	
+	<Style id="ItemGrayBlue50" xsi:type="widgets.brease.PieChartItem"
+		backColor="rgba(81,150,175,0.5)" />
+	
+	
+	
+	<!-- donut chart item -->
+	
+	<Style id="ItemOrange75" xsi:type="widgets.brease.DonutChartItem"
+	backColor="rgba(255, 136, 0, 0.75)"	/>
+	
+	<Style id="ItemOrange50" xsi:type="widgets.brease.DonutChartItem"
+	backColor="rgba(255, 136, 0, 0.5)" />
+	
+	<Style id="ItemGrayBlue" xsi:type="widgets.brease.DonutChartItem"
+	backColor="rgba(81,150,175,1)" />
+	
+	<Style id="ItemGrayBlue75" xsi:type="widgets.brease.DonutChartItem"
+	backColor="rgba(81,150,175,0.75)" />
+	
+	<Style id="ItemGrayBlue50" xsi:type="widgets.brease.DonutChartItem"
+	backColor="rgba(81,150,175,0.5)" />
+	
+	
+</Styles>

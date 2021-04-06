@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.9.2.46?>
+<InitParameter Version="5.12.2" NcSwId="Acp10">
+  <Group ID="ACP10AXIS_typ">
+    <Group ID="dig_in">
+      <Group ID="level">
+        <Parameter ID="reference" Value="ncACTIV_HI" />
+        <Parameter ID="pos_hw_end" Value="ncACTIV_LO" />
+        <Parameter ID="neg_hw_end" Value="ncACTIV_LO" />
+        <Parameter ID="trigger1" Value="ncACTIV_HI" />
+        <Parameter ID="trigger2" Value="ncACTIV_LO + ncQUICKSTOP" />
+      </Group>
+    </Group>
+    <Group ID="encoder_if">
+      <Group ID="parameter">
+        <Parameter ID="count_dir" Value="ncSTANDARD" />
+        <Group ID="scaling">
+          <Group ID="load">
+            <Parameter ID="units" Value="540" />
+            <Parameter ID="rev_motor" Value="1" />
+          </Group>
+        </Group>
+      </Group>
+    </Group>
+    <Group ID="limit">
+      <Group ID="parameter">
+        <Parameter ID="v_pos" Value="10000" />
+        <Parameter ID="v_neg" Value="10000" />
+        <Parameter ID="a1_pos" Value="50000" />
+        <Parameter ID="a2_pos" Value="50000" />
+        <Parameter ID="a1_neg" Value="50000" />
+        <Parameter ID="a2_neg" Value="50000" />
+        <Parameter ID="t_jolt" Value="0" />
+        <Parameter ID="t_in_pos" Value="0" />
+        <Parameter ID="pos_sw_end" Value="2000000000" />
+        <Parameter ID="neg_sw_end" Value="-2000000000" />
+        <Parameter ID="ds_warning" Value="500" />
+        <Parameter ID="ds_stop" Value="1000" />
+        <Parameter ID="a_stop" Value="1.0e30" />
+        <Parameter ID="dv_stop" Value="0" />
+        <Parameter ID="dv_stop_mode" Value="ncOFF" />
+      </Group>
+    </Group>
+    <Group ID="controller">
+      <Parameter ID="mode" Value="ncPOSITION" />
+      <Group ID="position">
+        <Parameter ID="kv" Value="50" />
+        <Parameter ID="tn" Value="0" />
+        <Parameter ID="t_predict" Value="0.0004" />
+        <Parameter ID="t_total" Value="0.0004" />
+        <Parameter ID="p_max" Value="1.0e30" />
+        <Parameter ID="i_max" Value="0" />
+      </Group>
+      <Group ID="speed">
+        <Parameter ID="kv" Value="2.0" />
+        <Parameter ID="tn" Value="0" />
+        <Parameter ID="t_filter" Value="0.0" />
+        <Group ID="isq_filter1">
+          <Parameter ID="type" Value="ncOFF" />
+          <Parameter ID="a0" Value="0.0" />
+          <Parameter ID="a1" Value="0.0" />
+          <Parameter ID="b0" Value="0.0" />
+          <Parameter ID="b1" Value="0.0" />
+          <Parameter ID="b2" Value="0.0" />
+          <Parameter ID="c0_par_id" Value="0" />
+          <Parameter ID="c1_par_id" Value="0" />
+        </Group>
+        <Group ID="isq_filter2">
+          <Parameter ID="type" Value="ncOFF" />
+          <Parameter ID="a0" Value="0.0" />
+          <Parameter ID="a1" Value="0.0" />
+          <Parameter ID="b0" Value="0.0" />
+          <Parameter ID="b1" Value="0.0" />
+          <Parameter ID="b2" Value="0.0" />
+          <Parameter ID="c0_par_id" Value="0" />
+          <Parameter ID="c1_par_id" Value="0" />
+        </Group>
+        <Group ID="isq_filter3">
+          <Parameter ID="type" Value="ncOFF" />
+          <Parameter ID="a0" Value="0.0" />
+          <Parameter ID="a1" Value="0.0" />
+          <Parameter ID="b0" Value="0.0" />
+          <Parameter ID="b1" Value="0.0" />
+          <Parameter ID="b2" Value="0.0" />
+          <Parameter ID="c0_par_id" Value="0" />
+          <Parameter ID="c1_par_id" Value="0" />
+        </Group>
+      </Group>
+      <Group ID="uf">
+        <Parameter ID="type" Value="ncLINEAR + ncCORRECTION" />
+        <Parameter ID="auto_config" Value="ncMOTOR_PAR" />
+        <Parameter ID="u0" Value="0" />
+        <Parameter ID="un" Value="0" />
+        <Parameter ID="fn" Value="50.0" />
+        <Parameter ID="k_f_slip" Value="0" />
+      </Group>
+      <Group ID="ff">
+        <Parameter ID="mode" Value="ncSTANDARD" />
+        <Parameter ID="torque_load" Value="0.0" />
+        <Parameter ID="torque_pos" Value="0.0" />
+        <Parameter ID="torque_neg" Value="0.0" />
+        <Parameter ID="kv_torque" Value="0.0" />
+        <Parameter ID="inertia" Value="0.0" />
+        <Parameter ID="t_filter_a" Value="0.0" />
+      </Group>
+      <Group ID="fb">
+        <Parameter ID="mode" Value="ncSTANDARD" />
+        <Parameter ID="speed_mix_ratio" Value="0.0" />
+        <Parameter ID="speed_kv" Value="2.0" />
+      </Group>
+      <Group ID="model">
+        <Group ID="mass1">
+          <Parameter ID="inertia" Value="0" />
+          <Parameter ID="viscous_friction" Value="0" />
+        </Group>
+        <Group ID="mass2">
+          <Parameter ID="inertia" Value="0" />
+          <Parameter ID="viscous_friction" Value="0" />
+          <Parameter ID="stiffness" Value="0" />
+          <Parameter ID="damping" Value="0" />
+        </Group>
+      </Group>
+    </Group>
+    <Group ID="move">
+      <Group ID="stop">
+        <Group ID="parameter[0]">
+          <Parameter ID="decel_ramp" Value="ncA_LIMIT" />
+          <Parameter ID="controller" Value="ncON" />
+        </Group>
+        <Group ID="parameter[1]">
+          <Parameter ID="decel_ramp" Value="ncA_LIMIT" />
+          <Parameter ID="controller" Value="ncON" />
+        </Group>
+        <Group ID="parameter[2]">
+          <Parameter ID="decel_ramp" Value="ncA_LIMIT" />
+          <Parameter ID="controller" Value="ncON" />
+        </Group>
+        <Group ID="parameter[3]">
+          <Parameter ID="decel_ramp" Value="ncA_LIMIT" />
+          <Parameter ID="controller" Value="ncON" />
+        </Group>
+        <Group ID="quickstop">
+          <Parameter ID="decel_ramp" Value="ncA_LIMIT" />
+          <Parameter ID="t_jolt" Value="0" />
+        </Group>
+        <Group ID="drive_error">
+          <Parameter ID="decel_ramp" Value="ncA_LIMIT" />
+        </Group>
+      </Group>
+      <Group ID="homing">
+        <Group ID="parameter">
+          <Parameter ID="s" Value="0" />
+          <Parameter ID="v_switch" Value="5000" />
+          <Parameter ID="v_trigger" Value="500" />
+          <Parameter ID="a" Value="50000" />
+          <Parameter ID="mode" Value="ncDIRECT" />
+          <Parameter ID="edge_sw" Value="ncPOSITIVE" />
+          <Parameter ID="start_dir" Value="ncPOSITIVE" />
+          <Parameter ID="trigg_dir" Value="ncPOSITIVE" />
+          <Parameter ID="ref_pulse" Value="ncOFF" />
+          <Parameter ID="fix_dir" Value="ncOFF" />
+          <Parameter ID="tr_s_block" Value="0" />
+          <Parameter ID="torque_lim" Value="0" />
+          <Parameter ID="ds_block" Value="0" />
+          <Parameter ID="ds_stop" Value="0" />
+        </Group>
+      </Group>
+      <Group ID="basis">
+        <Group ID="parameter">
+          <Parameter ID="v_pos" Value="5000" />
+          <Parameter ID="v_neg" Value="5000" />
+          <Parameter ID="a1_pos" Value="50000" />
+          <Parameter ID="a2_pos" Value="50000" />
+          <Parameter ID="a1_neg" Value="50000" />
+          <Parameter ID="a2_neg" Value="50000" />
+        </Group>
+      </Group>
+    </Group>
+    <Group ID="message">
+      <Group ID="text">
+        <Group ID="parameter">
+          <Parameter ID="format" Value="ncBREAK" />
+          <Parameter ID="columns" Value="80" />
+          <Parameter ID="data_modul" Value="acp10etxen" />
+        </Group>
+      </Group>
+    </Group>
+  </Group>
+</InitParameter>

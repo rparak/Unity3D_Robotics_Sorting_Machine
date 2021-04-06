@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package SubType="Layouts" PackageType="Layouts" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">Landscape16_9.layout</Object>
+  </Objects>
+</Package>

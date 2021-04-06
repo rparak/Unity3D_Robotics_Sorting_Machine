@@ -1,0 +1,7 @@
+VAR
+	gAxis01_X : ACP10AXIS_typ;
+	gAxis01_Y : ACP10AXIS_typ;
+	gAxis01_Z : ACP10AXIS_typ;
+	gAxis01_C : ACP10AXIS_typ;
+	dT_Main : dt_main_str;
+END_VAR

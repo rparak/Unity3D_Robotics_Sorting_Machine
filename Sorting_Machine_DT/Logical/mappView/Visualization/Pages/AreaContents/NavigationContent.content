@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="NavigationContent" height="20" width="1920" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="0" left="0" width="1920" height="20" zIndex="0" borderStyle="none" backColor="rgba(171, 197, 208, 1)" />
+  </Widgets>
+</Content>

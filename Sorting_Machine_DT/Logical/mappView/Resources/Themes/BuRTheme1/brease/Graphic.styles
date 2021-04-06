@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Styles id="BuRTheme1graphicStyles" xmlns="http://www.br-automation.com/iat2015/styles/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<!--rectangle-->
+
+	<Style id="Solid_Orange" xsi:type="widgets.brease.Rectangle" 
+		borderWidth="2px" 
+		cornerRadius="0px" 
+		backColor="transparent" 
+		lineColor="#FF8A00" 
+		borderStyle="solid" 
+		opacity="1" />
+		
+	<Style id="Solid_Black" xsi:type="widgets.brease.Rectangle" 
+		borderWidth="2px" 
+		cornerRadius="0px" 
+		backColor="transparent" 
+		lineColor="#000000" 
+		borderStyle="solid" 
+		opacity="1" />
+		
+	<Style id="Solid_LightGray" xsi:type="widgets.brease.Rectangle" 
+		borderWidth="2px" 
+		cornerRadius="0px" 
+		backColor="transparent" 
+		lineColor="#D9D9D9" 
+		borderStyle="solid" 
+		opacity="1" />
+		
+	<Style id="Solid_Gray" xsi:type="widgets.brease.Rectangle" 
+		borderWidth="2px" 
+		cornerRadius="0px" 
+		backColor="transparent" 
+		lineColor="#4D4D4D" 
+		borderStyle="solid" 
+		opacity="1" />
+
+	<Style id="Solid_GrayBlue" xsi:type="widgets.brease.Rectangle" 
+		borderWidth="2px" 
+		cornerRadius="0px"
+		backColor="transparent" 
+		lineColor="#5196AF" 
+		borderStyle="solid" 
+		opacity="1" />
+
+	<Style id="Solid_Orange_Rounded" xsi:type="widgets.brease.Rectangle" 
+		borderWidth="2px" 
+		cornerRadius="10px" 
+		backColor="transparent" 
+		lineColor="#FF8A00" 
+		borderStyle="solid" 
+		opacity="1" />
+		
+	<Style id="Solid_Black_Rounded" xsi:type="widgets.brease.Rectangle" 
+		borderWidth="2px" 
+		cornerRadius="10px" 
+		backColor="transparent" 
+		lineColor="#000000" 
+		borderStyle="solid" 
+		opacity="1" />
+  
+	<Style id="Solid_LightGray_Rounded" xsi:type="widgets.brease.Rectangle" 
+		borderWidth="2px" 
+		cornerRadius="10px" 
+		backColor="transparent" 
+		lineColor="#D9D9D9" 
+		borderStyle="solid" 
+		opacity="1" />
+
+	<Style id="Solid_Gray_Rounded" xsi:type="widgets.brease.Rectangle" 
+		borderWidth="2px" 
+		cornerRadius="10px" 
+		backColor="transparent" 
+		lineColor="#4D4D4D"
+		borderStyle="solid" 
+		opacity="1" />
+  
+	<Style id="Solid_GrayBlue_Rounded" xsi:type="widgets.brease.Rectangle" 
+		borderWidth="2px" 
+		cornerRadius="10px" 
+		backColor="transparent" 
+		lineColor="#5196AF" 
+		borderStyle="solid" 
+		opacity="1" />
+
+	<Style id="Dashed_Orange" xsi:type="widgets.brease.Rectangle" 
+		borderWidth="2px" 
+		cornerRadius="0px" 
+		backColor="transparent" 
+		lineColor="#FF8A00" 
+		borderStyle="dashed" 
+		opacity="1" />
+
+	<Style id="Dashed_Black" xsi:type="widgets.brease.Rectangle" 
+		borderWidth="2px" 
+		cornerRadius="0px" 
+		backColor="transparent" 
+		lineColor="#000000" 
+		borderStyle="dashed" 
+		opacity="1" />
+
+	<Style id="Dashed_LightGray" xsi:type="widgets.brease.Rectangle" 
+		borderWidth="2px" 
+		cornerRadius="0px" 
+		backColor="transparent" 
+		lineColor="#D9D9D9" 
+		borderStyle="dashed" 
+		opacity="1" />
+		
+	<Style id="Dashed_Gray" xsi:type="widgets.brease.Rectangle" 
+		borderWidth="2px" 
+		cornerRadius="0px" 
+		backColor="transparent" 
+		lineColor="#4D4D4D" 
+		borderStyle="dashed" 
+		opacity="1" />
+		
+	<Style id="Dashed_GrayBlue" xsi:type="widgets.brease.Rectangle" 
+		borderWidth="2px" 
+		cornerRadius="0px"
+		backColor="transparent" 
+		lineColor="#5196AF" 
+		borderStyle="dashed" 
+		opacity="1" />
+
+	<Style id="Solid_DarkOrange_Orange" xsi:type="widgets.brease.Rectangle" 
+		borderWidth="2px" 
+		cornerRadius="10px" 
+		backColor="#FD7B01" 
+		lineColor="#BC6200" 
+		borderStyle="solid" 
+		opacity="1" />
+		
+	<Style id="Solid_Gray_LightGray" xsi:type="widgets.brease.Rectangle" 
+		borderWidth="2px" 
+		cornerRadius="10px" 
+		backColor="#F1F1F1" 
+		lineColor="#D9D9D9" 
+		borderStyle="solid" 
+		opacity="1" />
+		
+	<Style id="Solid_Black_LightGray" xsi:type="widgets.brease.Rectangle" 
+		borderWidth="2px" 
+		cornerRadius="10px" 
+		backColor="#D9D9D9" 
+		lineColor="#000000" 
+		borderStyle="solid" 
+		opacity="1" />
+		
+	<Style id="Solid_Gray_Gray" xsi:type="widgets.brease.Rectangle" 
+		borderWidth="2px" 
+		cornerRadius="10px" 
+		backColor="#D9D9D9" 
+		lineColor="#555555" 
+		borderStyle="solid" 
+		opacity="1" />
+				
+	<Style id="Solid_Blue_GrayBlue" xsi:type="widgets.brease.Rectangle" 
+		borderWidth="2px" 
+		cornerRadius="10px" 
+		backColor="#5196AF" 
+		lineColor="#396D80" 
+		borderStyle="solid" 
+		opacity="1" />
+	
+	<!--ellipse-->
+	
+	<Style id="Solid_Orange" xsi:type="widgets.brease.Ellipse" 
+		borderWidth="2px" 
+		backColor="transparent" 
+		lineColor="#FF8A00" 
+		borderStyle="solid" 
+		opacity="1" />
+		
+	<Style id="Solid_Black" xsi:type="widgets.brease.Ellipse" 
+		borderWidth="2px" 
+		backColor="transparent" 
+		lineColor="#000000" 
+		borderStyle="solid" 
+		opacity="1" />
+		
+	<Style id="Solid_LightGray" xsi:type="widgets.brease.Ellipse" 
+		borderWidth="2px" 
+		backColor="transparent" 
+		lineColor="#D9D9D9" 
+		borderStyle="solid" 
+		opacity="1" />
+		
+	<Style id="Solid_Gray" xsi:type="widgets.brease.Ellipse" 
+		borderWidth="2px" 
+		backColor="transparent" 
+		lineColor="#4D4D4D" 
+		borderStyle="solid" 
+		opacity="1" />
+
+	<Style id="Solid_GrayBlue" xsi:type="widgets.brease.Ellipse" 
+		borderWidth="2px" 
+		backColor="transparent" 
+		lineColor="#5196AF" 
+		borderStyle="solid" 
+		opacity="1" />
+	
+	<Style id="Dashed_Orange" xsi:type="widgets.brease.Ellipse" 
+		borderWidth="2px" 
+		backColor="transparent" 
+		lineColor="#FF8A00" 
+		borderStyle="dashed" 
+		opacity="1" />
+
+	<Style id="Dashed_Black" xsi:type="widgets.brease.Ellipse" 
+		borderWidth="2px" 
+		backColor="transparent" 
+		lineColor="#000000" 
+		borderStyle="dashed" 
+		opacity="1" />
+
+	<Style id="Dashed_LightGray" xsi:type="widgets.brease.Ellipse" 
+		borderWidth="2px" 
+		backColor="transparent" 
+		lineColor="#D9D9D9" 
+		borderStyle="dashed" 
+		opacity="1" />
+		
+	<Style id="Dashed_Gray" xsi:type="widgets.brease.Ellipse" 
+		borderWidth="2px" 
+		backColor="transparent" 
+		lineColor="#4D4D4D" 
+		borderStyle="dashed" 
+		opacity="1" />
+		
+	<Style id="Dashed_GrayBlue" xsi:type="widgets.brease.Ellipse" 
+		borderWidth="2px" 
+		backColor="transparent" 
+		lineColor="#5196AF" 
+		borderStyle="dashed" 
+		opacity="1" />
+
+	<Style id="Solid_DarkOrange_Orange" xsi:type="widgets.brease.Ellipse" 
+		borderWidth="2px" 
+		backColor="#FD7B01" 
+		lineColor="#BC6200" 
+		borderStyle="solid" 
+		opacity="1" />
+		
+	<Style id="Solid_Gray_LightGray" xsi:type="widgets.brease.Ellipse" 
+		borderWidth="2px" 
+		backColor="#F1F1F1" 
+		lineColor="#D9D9D9" 
+		borderStyle="solid" 
+		opacity="1" />
+		
+	<Style id="Solid_Black_LightGray" xsi:type="widgets.brease.Ellipse" 
+		borderWidth="2px" 
+		backColor="#D9D9D9" 
+		lineColor="#000000" 
+		borderStyle="solid" 
+		opacity="1" />
+		
+	<Style id="Solid_Gray_Gray" xsi:type="widgets.brease.Ellipse" 
+		borderWidth="2px" 
+		backColor="#D9D9D9" 
+		lineColor="#555555" 
+		borderStyle="solid" 
+		opacity="1" />
+				
+	<Style id="Solid_Blue_GrayBlue" xsi:type="widgets.brease.Ellipse" 
+		borderWidth="2px" 
+		backColor="#5196AF" 
+		lineColor="#396D80" 
+		borderStyle="solid" 
+		opacity="1" />
+	
+	<!--line-->
+	
+	<Style id="Solid_Orange" xsi:type="widgets.brease.Line" 
+		lineColor="#FF8A00" 
+		lineWidth="1px" 
+		opacity="1" />
+		
+	<Style id="Solid_Black" xsi:type="widgets.brease.Line" 
+		lineColor="#000000" 
+		lineWidth="1px" 
+		opacity="1" />
+		
+	<Style id="Solid_LightGray" xsi:type="widgets.brease.Line" 
+		lineColor="#AAAAAA" 
+		lineWidth="1px" 
+		opacity="1" />
+		
+	<Style id="Solid_Gray" xsi:type="widgets.brease.Line" 
+		lineColor="#4D4D4D" 
+		lineWidth="1px" 
+		opacity="1" />
+
+	<Style id="Solid_GrayBlue" xsi:type="widgets.brease.Line" 
+		lineColor="#5196AF" 
+		lineWidth="1px" 
+		opacity="1" />
+
+	<Style id="Solid_Orange_Wide" xsi:type="widgets.brease.Line" 
+		lineColor="#FF8A00" 
+		lineWidth="3px" 
+		lineCap="round"
+		opacity="1" />
+		
+	<Style id="Solid_Black_Wide" xsi:type="widgets.brease.Line" 
+		lineColor="#000000" 
+		lineWidth="3px" 
+		lineCap="round" 
+		opacity="1" />
+		
+	<Style id="Solid_LightGray_Wide" xsi:type="widgets.brease.Line" 
+		lineColor="#AAAAAA" 
+		lineWidth="3px" 
+		opacity="1" />
+		
+	<Style id="Solid_Gray_Wide" xsi:type="widgets.brease.Line" 
+		lineColor="#4D4D4D" 
+		lineWidth="3px" 
+		lineCap="round" 
+		opacity="1" />
+
+	<Style id="Solid_GrayBlue_Wide" xsi:type="widgets.brease.Line" 
+		lineColor="#5196AF" 
+		lineWidth="3px" 
+		lineCap="round" 
+		opacity="1" />
+
+</Styles>

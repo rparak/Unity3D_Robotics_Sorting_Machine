@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.9.2.46 FileVersion="4.9"?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="80VD100PS.C00X-01" Type="80VD100PS.C00X-01" Version="2.5.0.0">
+    <Connection Connector="PLK1" TargetModule="8EI2X2HCT10.xxxx-1" TargetConnector="PLK2" NodeNumber="2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="MotionTP" Value="Acp10Arnc0" />
+    <Parameter ID="Simulate" Value="complete" />
+    <Parameter ID="BothEndSwitchesAreNormallyOpen_r1" Value="on" />
+    <Parameter ID="QuickStopIsNormallyOpen_r1" Value="on" />
+  </Module>
+  <Module Name="8EI2X2HCT10.xxxx-1" Type="8EI2X2HCT10.xxxx-1" Version="2.3.0.3">
+    <Connection Connector="PLK1" TargetModule="X20CP1584" TargetConnector="IF3" NodeNumber="1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="PLK2" TargetModule="80VD100PS.C00X-01" TargetConnector="PLK1" NodeNumber="1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="MotionTP" Value="Acp10Arnc0" />
+    <Parameter ID="Simulate" Value="complete" />
+    <Parameter ID="BothEndSwitchesAreNormallyOpen_r1" Value="on" />
+    <Parameter ID="QuickStopIsNormallyOpen_r1" Value="on" />
+  </Module>
+  <Module Name="X20CP1584" Type="X20CP1584" Version="1.9.0.0">
+    <Connector Name="IF2">
+      <Parameter ID="ActivateDevice" Value="1" />
+    </Connector>
+    <Parameter ID="ConfigurationID" Value="Sorting_Machine_DT_Config1" />
+    <Parameter ID="Simulation" Value="1" />
+    <Parameter ID="TimerDeviceType" Value="EPLX2X" />
+    <Parameter ID="TimerDevice" Value="X20CP1584.IF3" />
+    <Parameter ID="TaskClassIdleTime" Value="2000" />
+    <Parameter ID="Cyclic1Duration" Value="2000" />
+    <Parameter ID="Cyclic1Tolerance" Value="0" />
+    <Parameter ID="Cyclic2Duration" Value="10000" />
+    <Parameter ID="Cyclic2Tolerance" Value="10000" />
+    <Parameter ID="ActivateOpcUa" Value="1" />
+    <Parameter ID="OpcUaInformationModels_PV_Version" Value="1" />
+  </Module>
+</Hardware>

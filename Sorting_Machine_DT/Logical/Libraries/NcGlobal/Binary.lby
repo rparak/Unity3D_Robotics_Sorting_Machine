@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="5.12.2" SubType="Binary" Description="Global NC functions" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>NcGlobal.fun</File>
+    <File>NcGlobal.typ</File>
+    <File>NcGlobal.var</File>
+  </Files>
+</Library>
