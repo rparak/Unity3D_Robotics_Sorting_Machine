@@ -126,7 +126,7 @@ The project was realized at Institute of Automation and Computer Science, Brno U
 </p>
 
 <p align="center">
-<img src="https://github.com/rparak/Unity3D_Robotics_Sorting_Machine/blob/main/images/mv_2.png" width="800" height="500">
+<img src="https://github.com/rparak/Unity3D_Robotics_Sorting_Machine/blob/main/images/mv_2.PNG" width="800" height="500">
 </p>
 
 
