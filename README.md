@@ -132,7 +132,7 @@ The project was realized at Institute of Automation and Computer Science, Brno U
 
 ## Result:
 
-Youtube: comming soon
+Youtube: https://www.youtube.com/watch?v=xzF44x-q8EI
 
 ## Contact Info:
 Roman.Parak@outlook.com
