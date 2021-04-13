@@ -1,4 +1,4 @@
-*.fun linguist-detectable=false
+*.shader linguist-detectable=false
 *.c linguist-detectable=false
 *.h linguist-detectable=false
 *.cs linguist-detectable=true
