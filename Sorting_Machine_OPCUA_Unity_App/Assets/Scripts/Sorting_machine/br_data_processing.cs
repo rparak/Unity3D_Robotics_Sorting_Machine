@@ -109,18 +109,15 @@ public class br_data_processing : MonoBehaviour
     // ------------------------------------------------------------------------------------------------------------------------//
     void Start()
     {
-        // ------------------------ Initialization { B&R/SMC Digital Twin {Control Robot} - OPC UA Read Data } ------------------------//
-        // Robot IP Address
+        // PLC IP Address
         GlobalVariables_Main_Control.opcua_config[0] = "127.0.0.1";
-        // Robot XML Target
+        // OPC UA Port Number
         GlobalVariables_Main_Control.opcua_config[1] = "4840";
+        
+        // ------------------------ Initialization { B&R/SMC Digital Twin {Control Robot} - OPC UA Read Data } ------------------------//
         // Control -> Start {Read OPCUA data}
         GlobalVariables_Main_Control.enable_r = true;
         // ------------------------ Initialization { B&R/SMC Digital Twin {Control Robot} - OPC UA Write Data } ------------------------//
-        // Robot IP Address
-        GlobalVariables_Main_Control.opcua_config[0] = "127.0.0.1";
-        // Robot JSON Target
-        GlobalVariables_Main_Control.opcua_config[1] = "4840";
         // Control -> Start {Read OPCUA data}
         GlobalVariables_Main_Control.enable_w = true;
 
