@@ -42,7 +42,7 @@ Example of a simple data processing application (OPC UA):
 
 [OPC UA B&R Automation - Data Processing](https://github.com/rparak/OPCUA_Simple)
 
-Example of a simple motion control application (OPC UA, Unity3D, Mapp View, etc.):
+Example of an application for controlling the movement of single axis (OPC UA, Unity3D, Mapp View, etc.):
 
 [B&R Automation Workshop](https://github.com/rparak/BaR-Workshop-Simple)
 
