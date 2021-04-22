@@ -38,9 +38,13 @@ http://PLC_ADDRESS:81/index.html?visuId=sm_digital_twin
 
 The sorting machine is a simulation model (designed by the author of the application), so far there is no real identical machine.
 
-Example of a simple data processing application:
+Example of a simple data processing application (OPC UA):
 
 [OPC UA B&R Automation - Data Processing](https://github.com/rparak/OPCUA_Simple)
+
+Example of a simple motion control application (OPC UA, Unity3D, Mapp View, etc.):
+
+[B&R Automation Workshop](https://github.com/rparak/BaR-Workshop-Simple)
 
 Main functions of the Sorting Machine Digital-Twin model:
 - Camera Control
