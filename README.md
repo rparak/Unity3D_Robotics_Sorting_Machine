@@ -38,14 +38,6 @@ http://PLC_ADDRESS:81/index.html?visuId=sm_digital_twin
 
 The sorting machine is a simulation model (designed by the author of the application), so far there is no real identical machine.
 
-Example of a simple data processing application (OPC UA):
-
-[OPC UA B&R Automation - Data Processing](https://github.com/rparak/OPCUA_Simple)
-
-Example of an application for controlling the movement of single axis (OPC UA, Unity3D, Mapp View, etc.):
-
-[B&R Automation Workshop](https://github.com/rparak/BaR-Workshop-Simple)
-
 Main functions of the Sorting Machine Digital-Twin model:
 - Camera Control
 - Connect/Disconnect -> Real HW or Simulation (OPC UA Communication)
@@ -56,6 +48,16 @@ Main functions of the Sorting Machine Digital-Twin model:
 The application can be installed on a mobile phone, tablet or computer, but for communication with the machine it is necessary to be in the same network.
 
 The project was realized at Institute of Automation and Computer Science, Brno University of Technology, Faculty of Mechanical Engineering (NETME Centre - Cybernetics and Robotics Division).
+
+**Appendix:**
+
+Example of a simple data processing application (OPC UA):
+
+[OPC UA B&R Automation - Data Processing](https://github.com/rparak/OPCUA_Simple)
+
+Example of an application for controlling the movement of single axis (OPC UA, Unity3D, Mapp View, etc.):
+
+[B&R Automation Workshop](https://github.com/rparak/BaR-Workshop-Simple)
 
 <p align="center">
 <img src="https://github.com/rparak/Unity3D_Robotics_Sorting_Machine/blob/main/images/sorting_machine_model.png" width="775" height="450">
