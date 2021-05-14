@@ -246,7 +246,7 @@ public class br_data_processing : MonoBehaviour
             GlobalVariables_OPC_UA_client.xyz_manip_pos[0] = float.Parse(client_session_r.ReadValue(GlobalVariables_OPC_UA_client.xyz_manip_pos_node[0]).ToString(), System.Globalization.CultureInfo.InvariantCulture);
             GlobalVariables_OPC_UA_client.xyz_manip_pos[1] = float.Parse(client_session_r.ReadValue(GlobalVariables_OPC_UA_client.xyz_manip_pos_node[1]).ToString(), System.Globalization.CultureInfo.InvariantCulture);
             GlobalVariables_OPC_UA_client.xyz_manip_pos[2] = float.Parse(client_session_r.ReadValue(GlobalVariables_OPC_UA_client.xyz_manip_pos_node[2]).ToString(), System.Globalization.CultureInfo.InvariantCulture);
-            GlobalVariables_OPC_UA_client.xyz_manip_vel[0] = float.Parse(client_session_r.ReadValue(GlobalVariables_OPC_UA_client.xyz_manip_vel_node[0]).ToString(), System.Globalization.CultureInfo.InvariantCulture); ;
+            GlobalVariables_OPC_UA_client.xyz_manip_vel[0] = float.Parse(client_session_r.ReadValue(GlobalVariables_OPC_UA_client.xyz_manip_vel_node[0]).ToString(), System.Globalization.CultureInfo.InvariantCulture);
             GlobalVariables_OPC_UA_client.xyz_manip_vel[1] = float.Parse(client_session_r.ReadValue(GlobalVariables_OPC_UA_client.xyz_manip_vel_node[1]).ToString(), System.Globalization.CultureInfo.InvariantCulture);
             GlobalVariables_OPC_UA_client.xyz_manip_vel[2] = float.Parse(client_session_r.ReadValue(GlobalVariables_OPC_UA_client.xyz_manip_vel_node[2]).ToString(), System.Globalization.CultureInfo.InvariantCulture);
             // ---------- BOOL ---------- //
