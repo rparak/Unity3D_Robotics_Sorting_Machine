@@ -4,7 +4,7 @@
 
 **Software:**
 ```bash
-B&R Automation Studio, Unity3D 2020.1.8f1, Visual Studio 2017/2019
+B&R Automation Studio, Blender, Unity3D 2020.1.8f1, Visual Studio 2017/2019
 ```
 
 **Supported on the following operating systems:**
@@ -12,13 +12,13 @@ B&R Automation Studio, Unity3D 2020.1.8f1, Visual Studio 2017/2019
 Universal Windows Platform, Android
 ```
 
-Unity3D: https://unity3d.com/get-unity/download/archive
-
-Unity HDRI Pack: https://assetstore.unity.com/packages/2d/textures-materials/sky/unity-hdri-pack-72511
-
-B&R Automation: https://www.br-automation.com/en/downloads/#categories=Software-1344987434933
-
-Visual Studio: https://visualstudio.microsoft.com/downloads/
+| Software/Package      | Link                                                                                  |
+| --------------------- | ------------------------------------------------------------------------------------- |
+| Blender               | https://www.blender.org/download/                                                     |
+| Unity3D               | https://unity3d.com/get-unity/download/archive                                        |
+| Unity HDRI Pack       | https://assetstore.unity.com/packages/2d/textures-materials/sky/unity-hdri-pack-72511 |
+| B&R Automation        | https://www.br-automation.com/en/downloads/#categories=Software-1344987434933         |
+| Visual Studio         | https://visualstudio.microsoft.com/downloads/                                         |
 
 ## Project Description:
 
