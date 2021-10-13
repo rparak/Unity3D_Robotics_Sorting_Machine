@@ -1,4 +1,4 @@
-# Sorting Machine (B&R Automation, SMC) - Unity3D Robotics
+# Unity3D Industrial Robotics: Sorting Machine (B&R Automation, SMC)
 
 ## Requirements:
 
