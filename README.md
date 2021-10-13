@@ -143,6 +143,18 @@ Youtube: https://www.youtube.com/watch?v=AlEid_gWuA8&t=2s
 ## Contact Info:
 Roman.Parak@outlook.com
 
+## Citation (BibTex)
+```bash
+@misc{RomanParak_Unity3D,
+  author = {Roman Parak},
+  title = {Unity3d industrial robotics: Digital-twin},
+  year = {2020-2021},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/rparak/Unity3D_Robotics_Overview}}
+}
+```
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
